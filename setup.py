@@ -9,7 +9,7 @@ setup(
     url='https://github.zhaw.ch/scdp/pysepm',
     license='MIT',
     install_requires=[
-        'numba>=0.59.0,
+        'numba>=0.59.0',
 		'SRMRpy @  https://github.com/jfsantos/SRMRpy/archive/master.zip#egg=SRMRpy',
 	],
     classifiers=[
