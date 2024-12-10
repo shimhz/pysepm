@@ -9,11 +9,7 @@ setup(
     url='https://github.zhaw.ch/scdp/pysepm',
     license='MIT',
     install_requires=[
-	    'numpy',
-		'scipy',
-        'numba',
-		'pystoi',
-		'pesq @ https://github.com/ludlows/python-pesq/archive/master.zip#egg=pesq',
+        'numba==0.47.0',
 		'SRMRpy @  https://github.com/jfsantos/SRMRpy/archive/master.zip#egg=SRMRpy',
 	],
     classifiers=[
